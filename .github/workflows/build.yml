@@ -15,7 +15,7 @@ jobs:
       - name: Build Kernel
         uses: at1600/kernel_build_action@main
         with:
-          kernel-url: https://github.com/at1600/xiaomi_kernel_odin
+          kernel-url: https://github.com/at1600/xiaomi_kernel_odin_x
           kernel-dir: msm-5.4
           kernel-branch: taffy
           config: cas_defconfig
